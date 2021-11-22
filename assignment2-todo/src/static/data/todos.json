@@ -1,0 +1,52 @@
+[
+    {
+        "id":"qw3er57u",
+        "category":"Personal",
+        "title":"Clean room",
+        "isComplete":true,
+        "startDate":"Sunday October 31st",
+        "startTime":"1:00pm",
+        "endDate":"Sunday October 31st",
+        "endTime":"2:00pm"
+    },
+    {
+        "id":"kj7sy21l",
+        "category":"School",
+        "title":"Do Assignment 1",
+        "isComplete":true,
+        "startDate":"Sunday October 31st",
+        "startTime":"8:30pm",
+        "endDate":"Sunday October 31st",
+        "endTime":"11:59pm"
+    },
+    {
+        "id":"v7d243c8",
+        "category":"Family/Friends",
+        "title":"Bake pumpkin pie",
+        "isComplete":true,
+        "startDate":"Sunday October 31st",
+        "startTime":"2:00pm",
+        "endDate":"Sunday October 31st",
+        "endTime":"3:00pm"
+    },
+    {
+        "id":"ds687ds2",
+        "category":"Work",
+        "title":"Add to project to portfolio",
+        "isComplete":true,
+        "startDate":"Sunday October 31st",
+        "startTime":"6:00pm",
+        "endDate":"Sunday October 31st",
+        "endTime":"7:00pm"
+    }
+    ,
+    {
+        "id":"a8sze5d7",
+        "category":"Other",
+        "title":"Drop off package",
+        "isComplete":true,
+        "startDate":"Sunday October 31st",
+        "startTime":"4:00pm",
+        "endTime":"5:00pm"
+    }
+]

@@ -1,0 +1,39 @@
+{
+  "name": "todolistapp",
+  "version": "1.0.0",
+  "description": "## Steps  1. Make sure node is installed. Open the VS Code terminal ctrl+`  ```bash      node -v  ```  1. Make sure npm is installed. By default node installes npm node package  manager. Check that __npm__ is installed  ```npm       npm -v  ```",
+  "default": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run static && npx parcel src/index.html",
+    "static": "npx gulp",
+    "dev": "npm run static && npx parcel src/index.html",
+    "build": "npm run static && npx parcel build src/index.html",
+    "clean:dev": "rm -rf .parcel-cache dist",
+    "clean:git": "rm -rf .parcel-cache dist  node_modules"
+  },
+  "author": "Nina",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0",
+    "gulp": "^4.0.2",
+    "http-server": "^14.0.0",
+    "parcel": "^2.0.0",
+    "sass": "^1.43.4",
+    "set-value": ">=4.0.1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "lodash": "^4.17.21",
+    "uuid": "^8.3.2"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrosanes3/todolist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nrosanes3/todolist/issues"
+  },
+  "homepage": "https://github.com/nrosanes3/todolist#readme"
+}
